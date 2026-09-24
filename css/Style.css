@@ -1,0 +1,43 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+header{
+    border-radius:0px 0px 20px 20px;
+    display: flex;
+    background-color: rgb(60, 0, 255);
+    padding: 0.4rem 1rem;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+}
+span{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+a.nav-link, a.nav-link:visited {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+a.nav-link:hover {
+    color: rgb(255, 156, 64);
+}
+a.nav-link:active {
+    color:rgb(149, 89, 0);
+}
+a:link {
+    color:blue;
+}
+a:visited {
+    color:blueviolet;
+}
+a:hover {
+    color:rgb(89, 89, 255);
+}
