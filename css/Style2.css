@@ -3,7 +3,7 @@ html{
 }
 body{
     margin: 0;
-    background-color: rgb(113, 74, 74);
+    background: linear-gradient(0deg, rgb(100, 61, 61), rgb(113, 74, 74));
 }
 ul {
     display: flex;
@@ -83,7 +83,6 @@ img {
 }
 .top-aligned-image {
     max-width: 9rem;
-    display: inline;
     vertical-align: top;
     float: left;
     margin: 0rem 0.5rem 0rem 0rem;
@@ -92,7 +91,8 @@ img {
     max-width: 13rem;
     display: block;
     margin: 0.5rem;
-    border: 0.3rem solid black;
+    padding: 0.3rem;
+    background: linear-gradient(180deg, black, rgb(108, 69, 69));
 }
 .rounded {
     border-radius: 1rem;
@@ -100,12 +100,12 @@ img {
 .card{
     display: flex;
     margin: 0.5rem;
-    background: linear-gradient(45deg, black, rgb(113, 74, 74));
-    
+    background: linear-gradient(45deg, black, rgb(113, 74, 74), rgb(113, 74, 74));  
 }
 .card:hover{
-    background-position: 100%;
     transition: box-shadow 250ms ease-in-out;
     box-shadow: 4px 4px 10px;
-   
+}
+.footer{
+    padding: 0;
 }
